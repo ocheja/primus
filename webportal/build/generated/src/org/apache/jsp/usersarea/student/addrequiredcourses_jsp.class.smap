@@ -1,0 +1,29 @@
+SMAP
+addrequiredcourses_jsp.java
+JSP
+*S JSP
+*F
++ 0 addrequiredcourses.jsp
+usersarea/student/addrequiredcourses.jsp
+*L
+5,33:57
+37:118,11
+38,3:129
+40:195,14
+41,2:209
+42,4:134
+45:232,14
+46,2:246
+47,4:140
+50:269,14
+51,2:283
+52,4:146
+55:306,14
+56,2:320
+57,4:152
+61:156,5
+62,2:161
+64:163,5
+65,3:168
+67,9:92
+*E

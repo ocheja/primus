@@ -1,0 +1,14 @@
+SMAP
+viewdepartments_jsp.java
+JSP
+*S JSP
+*F
++ 0 viewdepartments.jsp
+usersarea/admin/viewdepartments.jsp
+*L
+5,4:45
+9,5:49,3
+14,43:64
+57:107,3
+58,32:110
+*E

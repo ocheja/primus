@@ -1,0 +1,29 @@
+SMAP
+degreerequirementlevels_jsp.java
+JSP
+*S JSP
+*F
++ 0 degreerequirementlevels.jsp
+usersarea/admin/degreerequirementlevels.jsp
+*L
+5,9:57
+14,4:67
+17,4:71
+21:75,3
+22:78
+23:79,7
+24,5:86
+29:91,5
+30:96
+30:142,11
+31:153,3
+31:184,5
+31,2:158
+32,9:99
+41:108,5
+42,4:113
+45,2:117
+46:119
+47:120,3
+48:123
+*E

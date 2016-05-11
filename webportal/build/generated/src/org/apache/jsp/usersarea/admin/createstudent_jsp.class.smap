@@ -1,0 +1,22 @@
+SMAP
+createstudent_jsp.java
+JSP
+*S JSP
+*F
++ 0 createstudent.jsp
+usersarea/admin/createstudent.jsp
+*L
+5,125:58
+129:280,11
+130:291,3
+130:322,5
+130,2:296
+131,10:185
+140:340,11
+141:351,3
+141:382,5
+141,2:356
+142,21:197
+163:218,3
+164,41:221
+*E

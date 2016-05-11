@@ -1,0 +1,26 @@
+SMAP
+gradeschemefields_jsp.java
+JSP
+*S JSP
+*F
++ 0 gradeschemefields.jsp
+usersarea/admin/gradeschemefields.jsp
+*L
+5,8:44
+13,3:53
+15,4:56
+19:60,3
+20:63
+21:64,5
+22,5:69
+27:74,5
+28,5:79
+33:84,5
+34,5:89
+39:94,5
+40,4:99
+43,2:103
+44:105
+45:106,3
+46,2:109
+*E

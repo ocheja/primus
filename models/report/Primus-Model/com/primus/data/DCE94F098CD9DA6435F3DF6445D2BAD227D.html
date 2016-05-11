@@ -1,0 +1,533 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Class</TITLE>
+<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-8">
+<LINK REL ="stylesheet" TYPE="text/css" HREF="../../../../stylesheet.css" TITLE="Style"></HEAD>
+<BODY BGCOLOR="white">
+<!-- ========= START OF NAVBAR ======= -->
+<A NAME="navbar_top"></A>
+<A HREF="#skip-navbar_top" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_top_firstrow"></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1"> &nbsp;<A HREF="../../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <FONT CLASS="NavBarFont1">Package</FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1Rev">    <FONT CLASS="NavBarFont1Rev"><B>Element</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <FONT CLASS="NavBarFont1">Diagram</FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../help.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+<b>NetBeans UML Modeling</b>
+</TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_top"></A>
+<!-- ========= END OF NAVBAR ========= -->
+
+<HR>
+<H2>
+<FONT SIZE="-1">com::primus::data</FONT>
+<BR>
+Class AcademicSession</H2>
+<PRE>
+<B>com::primus::data::AcademicSession</B>
+</PRE>
+<DL>
+<DT><B>All Implemented Interfaces:</B> <DD><A HREF="../../../../Primus-Model/java/io/DCE0051B54248AA979CD194352EC91E98B3.html" title="interface in java::io">Serializable</A></DD>
+</DL>
+<DL>
+<DT><B>All Dependency Suppliers:</B><DD><IMG SRC="../../../../images/implementation.png" ALT="(Implementation) ">&nbsp;Implementation&nbsp;<A HREF="../../../../Primus-Model/java/io/DCE0051B54248AA979CD194352EC91E98B3.html" title="dependency in java::io">Serializable</A></DD>
+</DL>
+<DL>
+<DT><B>All Known Associations: </B><DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCE78BC2791708B73D57D7E441EC02F44C3.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE203AC117F2310F1751FAB2D62B890E8C.html" title="association in com::primus::data">ResultSheet</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCE95775297162AD8C4AC4BD5086BA66489.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE9A43746605DC2C0920F720886BBCC576.html" title="association in com::primus::data">TimeTable</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCE962F2DD3D1B7DBAB54063F805E5B0D9F.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCEAD05B2E8E7C2D10B4CA587712B28409D.html" title="association in com::primus::data">LecturerStudents</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCE7F382E3B806CBC1744FAF200DACAF352.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE674639E6328F639803DF1F046A4202F9.html" title="association in com::primus::data">AcademicSessionLevel</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCE92456D7F433B02ED2E0F62F9C709DB95.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCEB669296268F93DE71A443FF65D75E027.html" title="association in com::primus::data">SchoolFeesReceipt</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCEA24F7D36F235540960E0932FF94C13D4.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE5E3B619CE6E54ECD4FE75796D0BABAA2.html" title="association in com::primus::data">CourseForm</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCE9CE86474387B9B311D3F7FBC56224834.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE677B983766FC4FFDB1CF2A7E60622763.html" title="association in com::primus::data">PrimusSettings</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCEC3FCCF08A2208BC494A9356F3923AF9F.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCEEFD418FB9D7B6217AD5A0CA34C3B549D.html" title="association in com::primus::data">ResultGradingScheme</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCE2D18963C8B6DAA26C8F65D51411791CA.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE345E7B74CAF3B562B70B5D43ABA47ABD.html" title="association in com::primus::data">HostelFeeReceipt</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCEE7F5F10949B1B3F93C7D9DCBDD9844B5.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE92FC5D3B6B41569B8E58407F9DF44246.html" title="association in com::primus::data">StudentResultSheet</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCEEBA610A2051496BBC2DAA2E9A6BC5928.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE2F599EADDFE74B86F35B737EC80E487C.html" title="association in com::primus::data">JqueryDataTableParamModel</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCEA6CFA876746EF0CCED739F57AF4D2B38.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE55E9E60A95E177BCC4D0AEBC60DD7E41.html" title="association in com::primus::data">Student</A></DD>
+</DL>
+<HR>
+<DL>
+<DT><PRE>public class <B>AcademicSession</B></DT><DT>implements <A HREF="../../../../Primus-Model/java/io/DCE0051B54248AA979CD194352EC91E98B3.html" title="interface in java::io">Serializable</A></DL>
+</PRE>
+
+<!-- =========== PROPERTY SUMMARY =========== -->
+<A NAME="property_summary"></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Properties</B></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD WIDTH="15%"><B>Alias</B></TD>
+<TD>AcademicSession</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD WIDTH="15%"><B>Visibility</B></TD>
+<TD>public</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD WIDTH="15%"><B>Final</B></TD>
+<TD><IMG src="../../../../images/unchecked.png" border=n></TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD WIDTH="15%"><B>Transient</B></TD>
+<TD><IMG src="../../../../images/checked.png" border=n></TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD WIDTH="15%"><B>Abstract</B></TD>
+<TD><IMG src="../../../../images/unchecked.png" border=n></TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD WIDTH="15%"><B>Leaf</B></TD>
+<TD><IMG src="../../../../images/unchecked.png" border=n></TD>
+</TR>
+</TABLE>
+&nbsp;
+<!-- =========== ATTRIBUTE SUMMARY =========== -->
+<A NAME="attribute_summary"></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Attribute Summary</B></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCE6C6D4B193DB9D4F7282CD7F5D48D086D.html">long</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#serialVersionUID">serialVersionUID</A></B></CODE>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCED8ACEB77467B0C268D96D87D2D499F8C.html">Long</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#id">id</A></B></CODE>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCE68FC42E7A988C72AB5B35E0550F7F04D.html">int</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#startYear">startYear</A></B></CODE>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCE68FC42E7A988C72AB5B35E0550F7F04D.html">int</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#endYear">endYear</A></B></CODE>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#currentSession">currentSession</A></B></CODE>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#active">active</A></B></CODE>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;identifys the current session
+</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#courseRegistrationClosed">courseRegistrationClosed</A></B></CODE>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;identifys the current session
+</TD>
+</TR>
+</TABLE>
+&nbsp;
+<!-- =========== OPERATION SUMMARY =========== -->
+<A NAME="operation_summary"></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Operation Summary</B></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCED8ACEB77467B0C268D96D87D2D499F8C.html">Long</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#getId">getId</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#setId">setId</A></B>(<A HREF="../../../../Primus-Model/DCED8ACEB77467B0C268D96D87D2D499F8C.html">Long</A>&nbsp;id)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCE68FC42E7A988C72AB5B35E0550F7F04D.html">int</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#hashCode">hashCode</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#equals">equals</A></B>(<A HREF="../../../../Primus-Model/DCE0898E371105133B9494AD39A20FFA90A.html">Object</A>&nbsp;object)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEE1E81F5134284A1E55E2A93366EEC688.html">String</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#toString">toString</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEE1E81F5134284A1E55E2A93366EEC688.html">String</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#getString">getString</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCE68FC42E7A988C72AB5B35E0550F7F04D.html">int</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#getStartYear">getStartYear</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @return the startYear
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#setStartYear">setStartYear</A></B>(<A HREF="../../../../Primus-Model/DCE68FC42E7A988C72AB5B35E0550F7F04D.html">int</A>&nbsp;startYear)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @param startYear the startYear to set
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCE68FC42E7A988C72AB5B35E0550F7F04D.html">int</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#getEndYear">getEndYear</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @return the endYear
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#setEndYear">setEndYear</A></B>(<A HREF="../../../../Primus-Model/DCE68FC42E7A988C72AB5B35E0550F7F04D.html">int</A>&nbsp;endYear)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @param endYear the endYear to set
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#isActive">isActive</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @return the active
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#setActive">setActive</A></B>(<A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A>&nbsp;active)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @param active the active to set
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#isCurrentSession">isCurrentSession</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @return the currentSession
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#setCurrentSession">setCurrentSession</A></B>(<A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A>&nbsp;currentSession)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @param currentSession the currentSession to set
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#isCourseRegistrationClosed">isCourseRegistrationClosed</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @return the courseRegistrationClosed
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#setCourseRegistrationClosed">setCourseRegistrationClosed</A></B>(<A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A>&nbsp;courseRegistrationClosed)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @param courseRegistrationClosed the courseRegistrationClosed to set
+     </TD>
+</TR>
+</TABLE>
+&nbsp;
+<!-- =========== ATTRIBUTE DETAIL =========== -->
+<A NAME="attribute_detail"></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Attribute Detail</B></FONT></TH>
+</TR>
+</TABLE>
+<A NAME="serialVersionUID"></A><H3>serialVersionUID</H3>
+<PRE>private <A HREF="../../../../Primus-Model/DCE6C6D4B193DB9D4F7282CD7F5D48D086D.html">long</A> <B>serialVersionUID</B></PRE><DL>
+<DD>
+<P>
+</DD>
+</DL>
+<HR>
+
+<A NAME="id"></A><H3>id</H3>
+<PRE>private <A HREF="../../../../Primus-Model/DCED8ACEB77467B0C268D96D87D2D499F8C.html">Long</A> <B>id</B></PRE><DL>
+<DD>
+<P>
+</DD>
+</DL>
+<HR>
+
+<A NAME="startYear"></A><H3>startYear</H3>
+<PRE>private <A HREF="../../../../Primus-Model/DCE68FC42E7A988C72AB5B35E0550F7F04D.html">int</A> <B>startYear</B></PRE><DL>
+<DD>
+<P>
+</DD>
+</DL>
+<HR>
+
+<A NAME="endYear"></A><H3>endYear</H3>
+<PRE>private <A HREF="../../../../Primus-Model/DCE68FC42E7A988C72AB5B35E0550F7F04D.html">int</A> <B>endYear</B></PRE><DL>
+<DD>
+<P>
+</DD>
+</DL>
+<HR>
+
+<A NAME="currentSession"></A><H3>currentSession</H3>
+<PRE>private <A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A> <B>currentSession</B></PRE><DL>
+<DD>
+<P>
+</DD>
+</DL>
+<HR>
+
+<A NAME="active"></A><H3>active</H3>
+<PRE>private <A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A> <B>active</B></PRE><DL>
+<DD>identifys the current session
+
+<P>
+</DD>
+</DL>
+<HR>
+
+<A NAME="courseRegistrationClosed"></A><H3>courseRegistrationClosed</H3>
+<PRE>private <A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A> <B>courseRegistrationClosed</B></PRE><DL>
+<DD>identifys the current session
+
+<P>
+</DD>
+</DL>
+
+<!-- =========== OPERATION DETAIL =========== -->
+
+<A NAME="operationr_detail"></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Operation Detail</B></FONT></TH>
+</TR>
+</TABLE>
+<A NAME="getId"></A><H3>getId</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCED8ACEB77467B0C268D96D87D2D499F8C.html">Long</A> <B>getId</B>()</PRE>
+<DL>
+<DD>
+<P>
+</DD></DL>
+<HR>
+<A NAME="setId"></A><H3>setId</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A> <B>setId</B>(<A HREF="../../../../Primus-Model/DCED8ACEB77467B0C268D96D87D2D499F8C.html">Long</A>&nbsp;id)</PRE>
+<DL>
+<DD>
+<P>
+</DD></DL>
+<HR>
+<A NAME="hashCode"></A><H3>hashCode</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCE68FC42E7A988C72AB5B35E0550F7F04D.html">int</A> <B>hashCode</B>()</PRE>
+<DL>
+<DD>
+<P>
+</DD></DL>
+<HR>
+<A NAME="equals"></A><H3>equals</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A> <B>equals</B>(<A HREF="../../../../Primus-Model/DCE0898E371105133B9494AD39A20FFA90A.html">Object</A>&nbsp;object)</PRE>
+<DL>
+<DD>
+<P>
+</DD></DL>
+<HR>
+<A NAME="toString"></A><H3>toString</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEE1E81F5134284A1E55E2A93366EEC688.html">String</A> <B>toString</B>()</PRE>
+<DL>
+<DD>
+<P>
+</DD></DL>
+<HR>
+<A NAME="getString"></A><H3>getString</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEE1E81F5134284A1E55E2A93366EEC688.html">String</A> <B>getString</B>()</PRE>
+<DL>
+<DD>
+<P>
+</DD></DL>
+<HR>
+<A NAME="getStartYear"></A><H3>getStartYear</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCE68FC42E7A988C72AB5B35E0550F7F04D.html">int</A> <B>getStartYear</B>()</PRE>
+<DL>
+<DD>
+     @return the startYear
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="setStartYear"></A><H3>setStartYear</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A> <B>setStartYear</B>(<A HREF="../../../../Primus-Model/DCE68FC42E7A988C72AB5B35E0550F7F04D.html">int</A>&nbsp;startYear)</PRE>
+<DL>
+<DD>
+     @param startYear the startYear to set
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="getEndYear"></A><H3>getEndYear</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCE68FC42E7A988C72AB5B35E0550F7F04D.html">int</A> <B>getEndYear</B>()</PRE>
+<DL>
+<DD>
+     @return the endYear
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="setEndYear"></A><H3>setEndYear</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A> <B>setEndYear</B>(<A HREF="../../../../Primus-Model/DCE68FC42E7A988C72AB5B35E0550F7F04D.html">int</A>&nbsp;endYear)</PRE>
+<DL>
+<DD>
+     @param endYear the endYear to set
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="isActive"></A><H3>isActive</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A> <B>isActive</B>()</PRE>
+<DL>
+<DD>
+     @return the active
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="setActive"></A><H3>setActive</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A> <B>setActive</B>(<A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A>&nbsp;active)</PRE>
+<DL>
+<DD>
+     @param active the active to set
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="isCurrentSession"></A><H3>isCurrentSession</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A> <B>isCurrentSession</B>()</PRE>
+<DL>
+<DD>
+     @return the currentSession
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="setCurrentSession"></A><H3>setCurrentSession</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A> <B>setCurrentSession</B>(<A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A>&nbsp;currentSession)</PRE>
+<DL>
+<DD>
+     @param currentSession the currentSession to set
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="isCourseRegistrationClosed"></A><H3>isCourseRegistrationClosed</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A> <B>isCourseRegistrationClosed</B>()</PRE>
+<DL>
+<DD>
+     @return the courseRegistrationClosed
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="setCourseRegistrationClosed"></A><H3>setCourseRegistrationClosed</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A> <B>setCourseRegistrationClosed</B>(<A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A>&nbsp;courseRegistrationClosed)</PRE>
+<DL>
+<DD>
+     @param courseRegistrationClosed the courseRegistrationClosed to set
+     
+<P>
+</DD></DL>
+
+<HR>
+<!-- ========= START OF NAVBAR ======= -->
+<A NAME="navbar_top"></A>
+<A HREF="#skip-navbar_top" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_top_firstrow"></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1"> &nbsp;<A HREF="../../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <FONT CLASS="NavBarFont1">Package</FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1Rev">    <FONT CLASS="NavBarFont1Rev"><B>Element</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <FONT CLASS="NavBarFont1">Diagram</FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../help.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+<b>NetBeans UML Modeling</b>
+</TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_top"></A>
+<!-- ========= END OF NAVBAR ========= -->
+
+</BODY>
+</HTML>

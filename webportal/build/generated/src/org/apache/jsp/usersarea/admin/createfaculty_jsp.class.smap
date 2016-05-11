@@ -1,0 +1,12 @@
+SMAP
+createfaculty_jsp.java
+JSP
+*S JSP
+*F
++ 0 createfaculty.jsp
+usersarea/admin/createfaculty.jsp
+*L
+5,33:45
+38:78,3
+39,101:81
+*E

@@ -1,0 +1,15 @@
+SMAP
+edittimetable_jsp.java
+JSP
+*S JSP
+*F
++ 0 edittimetable.jsp
+usersarea/lecturer/edittimetable.jsp
+*L
+5,5:45
+10:50,3
+11,5:53
+16,2:58,5
+18,42:68
+60,6:110,3
+*E

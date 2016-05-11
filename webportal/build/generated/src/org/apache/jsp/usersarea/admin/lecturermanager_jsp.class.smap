@@ -1,0 +1,28 @@
+SMAP
+lecturermanager_jsp.java
+JSP
+*S JSP
+*F
++ 0 lecturermanager.jsp
+usersarea/admin/lecturermanager.jsp
+*L
+5,5:45
+10,2:50,3
+12,3:56
+14,7:59
+21,2:66,3
+23,3:72
+26,2:76
+27,5:78
+32:83,3
+33,4:86
+37,5:91
+41,5:96
+46:101,3
+47,4:104
+51,4:109
+54:113
+55:114,3
+56,4:117
+60,5:121,3
+*E

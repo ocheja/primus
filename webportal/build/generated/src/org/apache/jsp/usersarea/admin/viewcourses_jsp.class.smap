@@ -1,0 +1,21 @@
+SMAP
+viewcourses_jsp.java
+JSP
+*S JSP
+*F
++ 0 viewcourses.jsp
+usersarea/admin/viewcourses.jsp
+*L
+5,5:58
+10,5:63,3
+15,47:78
+62:125,3
+63,51:128
+113:279,11
+114:290,3
+114:321,5
+114,2:295
+115,7:181
+122:188,3
+123,70:191
+*E

@@ -1,0 +1,57 @@
+.circular {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border-right-style: solid;
+    border-right-color: #00BB64;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -webkit-border-right-style: solid;
+    -moz-border-right-color: #00BB64;
+    background: url("./img/google-avatar.png") no-repeat;
+    display: inline-block;
+    float: left;
+    margin-left: 40%;
+    margin-right: 50%;
+    margin-bottom: 10px;
+}
+.rightCi p{
+    color: #60B044;
+    font-family:"Courier New Lucida Console",Times,serif;
+    font-size: 14px;
+}
+.profile-centered{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.profile-centered .label-name{
+    font-weight: bold;
+    line-height: 2.0;
+    text-align: center;
+    white-space: nowrap;
+    color: #60B044;
+}
+.profile-centered .label-value{
+    color: #60B044;
+    font-weight: 500;
+    line-height: 2.0;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    /*.widget-title .buttons {
+            float: left;
+    }*/
+    .rightCi p {
+        position: relative;
+    }
+    .circular{
+        margin: auto;
+    }
+    .profile-centered{
+        padding: auto;
+    }
+}
+.rightCi {
+    margin: 20px 0px 0px 2px;
+}

@@ -1,0 +1,639 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Class</TITLE>
+<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-8">
+<LINK REL ="stylesheet" TYPE="text/css" HREF="../../../../stylesheet.css" TITLE="Style"></HEAD>
+<BODY BGCOLOR="white">
+<!-- ========= START OF NAVBAR ======= -->
+<A NAME="navbar_top"></A>
+<A HREF="#skip-navbar_top" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_top_firstrow"></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1"> &nbsp;<A HREF="../../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <FONT CLASS="NavBarFont1">Package</FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1Rev">    <FONT CLASS="NavBarFont1Rev"><B>Element</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <FONT CLASS="NavBarFont1">Diagram</FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../help.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+<b>NetBeans UML Modeling</b>
+</TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_top"></A>
+<!-- ========= END OF NAVBAR ========= -->
+
+<HR>
+<H2>
+<FONT SIZE="-1">com::primus::data</FONT>
+<BR>
+Class TimeTable</H2>
+<PRE>
+<B>com::primus::data::TimeTable</B>
+</PRE>
+<DL>
+<DT><B>All Implemented Interfaces:</B> <DD><A HREF="../../../../Primus-Model/java/io/DCE0051B54248AA979CD194352EC91E98B3.html" title="interface in java::io">Serializable</A></DD>
+</DL>
+<DL>
+<DT><B>All Dependency Suppliers:</B><DD><IMG SRC="../../../../images/implementation.png" ALT="(Implementation) ">&nbsp;Implementation&nbsp;<A HREF="../../../../Primus-Model/java/io/DCE0051B54248AA979CD194352EC91E98B3.html" title="dependency in java::io">Serializable</A></DD>
+</DL>
+<DL>
+<DT><B>All Known Associations: </B><DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCE28F8EB03FA2E9D76D6FF7A5657070EDC.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE37AD733285072ABDEAF7B432488101C8.html" title="association in com::primus::data">Department</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCE95775297162AD8C4AC4BD5086BA66489.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE94F098CD9DA6435F3DF6445D2BAD227D.html" title="association in com::primus::data">AcademicSession</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCE9F4A38CB89451F4A78A431135E2652F3.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE1F1AE4553A2D31B21EE9BE3F13B94D67.html" title="association in com::primus::data">Monday</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCE4A7A9EE2FA150807E1EEF1FAD085A2AC.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE8B7833BF59F8BD35953270EAC6901DC2.html" title="association in com::primus::data">Tuesday</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCE2EBBAC4CA8A9657D8F9C5EB593609AEE.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE15CE2AF37989AD9F51ECBC8212523ACD.html" title="association in com::primus::data">Wednesday</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCEEFB6FEC0AF05000A48C10E0E43221CAF.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE81E17F7CF537F4016105E0E36CFA2C30.html" title="association in com::primus::data">Thursday</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCEEAEB218668F846D622868EE1C7F3FB7B.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCEADAB2AEA567B8CB0414F32F0A4AFE8EF.html" title="association in com::primus::data">Friday</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCE43FC5DF0055B49469B31EB73A80B2CC0.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE56AF9374FA37D0C32BB4774215FBDBBA.html" title="association in com::primus::data">Saturday</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCED4E9027BF0BEECF19DD7B2E64B53F159.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE862503B75BD8F9FD6D78C07D48C23872.html" title="association in com::primus::data">Sunday</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCEA4633A5C0005693B22697AF9E05CE0C1.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE81E17F7CF537F4016105E0E36CFA2C30.html" title="association in com::primus::data">Thursday</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCEC8125AF375220EED3D694FF4747E83FF.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE1F1AE4553A2D31B21EE9BE3F13B94D67.html" title="association in com::primus::data">Monday</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCEBFA781292D09F46EBAA4A786D341D020.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE15CE2AF37989AD9F51ECBC8212523ACD.html" title="association in com::primus::data">Wednesday</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCECFA922C834891F5302EA49F07324AC17.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE8B7833BF59F8BD35953270EAC6901DC2.html" title="association in com::primus::data">Tuesday</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCE6491B8119CD7D6881C58EF5BE827E412.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE862503B75BD8F9FD6D78C07D48C23872.html" title="association in com::primus::data">Sunday</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCE0E99804613EFEA5887D9969F7B787647.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCE56AF9374FA37D0C32BB4774215FBDBBA.html" title="association in com::primus::data">Saturday</A></DD>
+<DD><IMG SRC="../../../../images/navigable-aggregation.png" ALT="(Navigable_Aggregation) "> <A HREF="../../../../Primus-Model/com/primus/data/DCE50BCAE92D4C623985534FDA7FC8AB942.html">Navigable_Aggregation</A>: <A HREF="../../../../Primus-Model/com/primus/data/DCEADAB2AEA567B8CB0414F32F0A4AFE8EF.html" title="association in com::primus::data">Friday</A></DD>
+</DL>
+<HR>
+<DL>
+<DT><PRE>public class <B>TimeTable</B></DT><DT>implements <A HREF="../../../../Primus-Model/java/io/DCE0051B54248AA979CD194352EC91E98B3.html" title="interface in java::io">Serializable</A></DL>
+</PRE>
+
+<!-- =========== PROPERTY SUMMARY =========== -->
+<A NAME="property_summary"></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Properties</B></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD WIDTH="15%"><B>Alias</B></TD>
+<TD>TimeTable</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD WIDTH="15%"><B>Visibility</B></TD>
+<TD>public</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD WIDTH="15%"><B>Final</B></TD>
+<TD><IMG src="../../../../images/unchecked.png" border=n></TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD WIDTH="15%"><B>Transient</B></TD>
+<TD><IMG src="../../../../images/checked.png" border=n></TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD WIDTH="15%"><B>Abstract</B></TD>
+<TD><IMG src="../../../../images/unchecked.png" border=n></TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD WIDTH="15%"><B>Leaf</B></TD>
+<TD><IMG src="../../../../images/unchecked.png" border=n></TD>
+</TR>
+</TABLE>
+&nbsp;
+<!-- =========== ATTRIBUTE SUMMARY =========== -->
+<A NAME="attribute_summary"></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Attribute Summary</B></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCE6C6D4B193DB9D4F7282CD7F5D48D086D.html">long</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#serialVersionUID">serialVersionUID</A></B></CODE>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCED8ACEB77467B0C268D96D87D2D499F8C.html">Long</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#id">id</A></B></CODE>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/com/primus/enums/DCE436DCC835F8059D420B02B8F24845709.html">Semester</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#academicSemester">academicSemester</A></B></CODE>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+</TABLE>
+&nbsp;
+<!-- =========== OPERATION SUMMARY =========== -->
+<A NAME="operation_summary"></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Operation Summary</B></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCED8ACEB77467B0C268D96D87D2D499F8C.html">Long</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#getId">getId</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#setId">setId</A></B>(<A HREF="../../../../Primus-Model/DCED8ACEB77467B0C268D96D87D2D499F8C.html">Long</A>&nbsp;id)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCE68FC42E7A988C72AB5B35E0550F7F04D.html">int</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#hashCode">hashCode</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#equals">equals</A></B>(<A HREF="../../../../Primus-Model/DCE0898E371105133B9494AD39A20FFA90A.html">Object</A>&nbsp;object)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEE1E81F5134284A1E55E2A93366EEC688.html">String</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#toString">toString</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/com/primus/data/DCE37AD733285072ABDEAF7B432488101C8.html">Department</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#getDepartment">getDepartment</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @return the department
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#setDepartment">setDepartment</A></B>(<A HREF="../../../../Primus-Model/com/primus/data/DCE37AD733285072ABDEAF7B432488101C8.html">Department</A>&nbsp;department)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @param department the department to set
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/com/primus/data/DCE94F098CD9DA6435F3DF6445D2BAD227D.html">AcademicSession</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#getAcademicSession">getAcademicSession</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @return the academicSession
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#setAcademicSession">setAcademicSession</A></B>(<A HREF="../../../../Primus-Model/com/primus/data/DCE94F098CD9DA6435F3DF6445D2BAD227D.html">AcademicSession</A>&nbsp;academicSession)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @param academicSession the academicSession to set
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/com/primus/enums/DCE436DCC835F8059D420B02B8F24845709.html">Semester</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#getAcademicSemester">getAcademicSemester</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @return the academicSemester
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#setAcademicSemester">setAcademicSemester</A></B>(<A HREF="../../../../Primus-Model/com/primus/enums/DCE436DCC835F8059D420B02B8F24845709.html">Semester</A>&nbsp;academicSemester)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @param academicSemester the academicSemester to set
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/com/primus/data/DCE1F1AE4553A2D31B21EE9BE3F13B94D67.html">Monday</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#getMonday">getMonday</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @return the monday
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#setMonday">setMonday</A></B>(<A HREF="../../../../Primus-Model/com/primus/data/DCE1F1AE4553A2D31B21EE9BE3F13B94D67.html">Monday</A>&nbsp;monday)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @param monday the monday to set
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/com/primus/data/DCE8B7833BF59F8BD35953270EAC6901DC2.html">Tuesday</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#getTuesday">getTuesday</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @return the tuesday
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#setTuesday">setTuesday</A></B>(<A HREF="../../../../Primus-Model/com/primus/data/DCE8B7833BF59F8BD35953270EAC6901DC2.html">Tuesday</A>&nbsp;tuesday)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @param tuesday the tuesday to set
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/com/primus/data/DCE15CE2AF37989AD9F51ECBC8212523ACD.html">Wednesday</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#getWednesday">getWednesday</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @return the wednesday
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#setWednesday">setWednesday</A></B>(<A HREF="../../../../Primus-Model/com/primus/data/DCE15CE2AF37989AD9F51ECBC8212523ACD.html">Wednesday</A>&nbsp;wednesday)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @param wednesday the wednesday to set
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/com/primus/data/DCE81E17F7CF537F4016105E0E36CFA2C30.html">Thursday</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#getThursday">getThursday</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @return the thursday
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#setThursday">setThursday</A></B>(<A HREF="../../../../Primus-Model/com/primus/data/DCE81E17F7CF537F4016105E0E36CFA2C30.html">Thursday</A>&nbsp;thursday)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @param thursday the thursday to set
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/com/primus/data/DCEADAB2AEA567B8CB0414F32F0A4AFE8EF.html">Friday</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#getFriday">getFriday</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @return the friday
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#setFriday">setFriday</A></B>(<A HREF="../../../../Primus-Model/com/primus/data/DCEADAB2AEA567B8CB0414F32F0A4AFE8EF.html">Friday</A>&nbsp;friday)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @param friday the friday to set
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/com/primus/data/DCE56AF9374FA37D0C32BB4774215FBDBBA.html">Saturday</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#getSaturday">getSaturday</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @return the saturday
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#setSaturday">setSaturday</A></B>(<A HREF="../../../../Primus-Model/com/primus/data/DCE56AF9374FA37D0C32BB4774215FBDBBA.html">Saturday</A>&nbsp;saturday)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @param saturday the saturday to set
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/com/primus/data/DCE862503B75BD8F9FD6D78C07D48C23872.html">Sunday</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#getSunday">getSunday</A></B>()</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @return the sunday
+     </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE><A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="#setSunday">setSunday</A></B>(<A HREF="../../../../Primus-Model/com/primus/data/DCE862503B75BD8F9FD6D78C07D48C23872.html">Sunday</A>&nbsp;sunday)</CODE><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     @param sunday the sunday to set
+     </TD>
+</TR>
+</TABLE>
+&nbsp;
+<!-- =========== ATTRIBUTE DETAIL =========== -->
+<A NAME="attribute_detail"></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Attribute Detail</B></FONT></TH>
+</TR>
+</TABLE>
+<A NAME="serialVersionUID"></A><H3>serialVersionUID</H3>
+<PRE>private <A HREF="../../../../Primus-Model/DCE6C6D4B193DB9D4F7282CD7F5D48D086D.html">long</A> <B>serialVersionUID</B></PRE><DL>
+<DD>
+<P>
+</DD>
+</DL>
+<HR>
+
+<A NAME="id"></A><H3>id</H3>
+<PRE>private <A HREF="../../../../Primus-Model/DCED8ACEB77467B0C268D96D87D2D499F8C.html">Long</A> <B>id</B></PRE><DL>
+<DD>
+<P>
+</DD>
+</DL>
+<HR>
+
+<A NAME="academicSemester"></A><H3>academicSemester</H3>
+<PRE>private <A HREF="../../../../Primus-Model/com/primus/enums/DCE436DCC835F8059D420B02B8F24845709.html">Semester</A> <B>academicSemester</B></PRE><DL>
+<DD>
+<P>
+</DD>
+</DL>
+
+<!-- =========== OPERATION DETAIL =========== -->
+
+<A NAME="operationr_detail"></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Operation Detail</B></FONT></TH>
+</TR>
+</TABLE>
+<A NAME="getId"></A><H3>getId</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCED8ACEB77467B0C268D96D87D2D499F8C.html">Long</A> <B>getId</B>()</PRE>
+<DL>
+<DD>
+<P>
+</DD></DL>
+<HR>
+<A NAME="setId"></A><H3>setId</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A> <B>setId</B>(<A HREF="../../../../Primus-Model/DCED8ACEB77467B0C268D96D87D2D499F8C.html">Long</A>&nbsp;id)</PRE>
+<DL>
+<DD>
+<P>
+</DD></DL>
+<HR>
+<A NAME="hashCode"></A><H3>hashCode</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCE68FC42E7A988C72AB5B35E0550F7F04D.html">int</A> <B>hashCode</B>()</PRE>
+<DL>
+<DD>
+<P>
+</DD></DL>
+<HR>
+<A NAME="equals"></A><H3>equals</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCE8F7B173706E3D99B63035F55D354D610.html">boolean</A> <B>equals</B>(<A HREF="../../../../Primus-Model/DCE0898E371105133B9494AD39A20FFA90A.html">Object</A>&nbsp;object)</PRE>
+<DL>
+<DD>
+<P>
+</DD></DL>
+<HR>
+<A NAME="toString"></A><H3>toString</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEE1E81F5134284A1E55E2A93366EEC688.html">String</A> <B>toString</B>()</PRE>
+<DL>
+<DD>
+<P>
+</DD></DL>
+<HR>
+<A NAME="getDepartment"></A><H3>getDepartment</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/com/primus/data/DCE37AD733285072ABDEAF7B432488101C8.html">Department</A> <B>getDepartment</B>()</PRE>
+<DL>
+<DD>
+     @return the department
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="setDepartment"></A><H3>setDepartment</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A> <B>setDepartment</B>(<A HREF="../../../../Primus-Model/com/primus/data/DCE37AD733285072ABDEAF7B432488101C8.html">Department</A>&nbsp;department)</PRE>
+<DL>
+<DD>
+     @param department the department to set
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="getAcademicSession"></A><H3>getAcademicSession</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/com/primus/data/DCE94F098CD9DA6435F3DF6445D2BAD227D.html">AcademicSession</A> <B>getAcademicSession</B>()</PRE>
+<DL>
+<DD>
+     @return the academicSession
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="setAcademicSession"></A><H3>setAcademicSession</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A> <B>setAcademicSession</B>(<A HREF="../../../../Primus-Model/com/primus/data/DCE94F098CD9DA6435F3DF6445D2BAD227D.html">AcademicSession</A>&nbsp;academicSession)</PRE>
+<DL>
+<DD>
+     @param academicSession the academicSession to set
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="getAcademicSemester"></A><H3>getAcademicSemester</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/com/primus/enums/DCE436DCC835F8059D420B02B8F24845709.html">Semester</A> <B>getAcademicSemester</B>()</PRE>
+<DL>
+<DD>
+     @return the academicSemester
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="setAcademicSemester"></A><H3>setAcademicSemester</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A> <B>setAcademicSemester</B>(<A HREF="../../../../Primus-Model/com/primus/enums/DCE436DCC835F8059D420B02B8F24845709.html">Semester</A>&nbsp;academicSemester)</PRE>
+<DL>
+<DD>
+     @param academicSemester the academicSemester to set
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="getMonday"></A><H3>getMonday</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/com/primus/data/DCE1F1AE4553A2D31B21EE9BE3F13B94D67.html">Monday</A> <B>getMonday</B>()</PRE>
+<DL>
+<DD>
+     @return the monday
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="setMonday"></A><H3>setMonday</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A> <B>setMonday</B>(<A HREF="../../../../Primus-Model/com/primus/data/DCE1F1AE4553A2D31B21EE9BE3F13B94D67.html">Monday</A>&nbsp;monday)</PRE>
+<DL>
+<DD>
+     @param monday the monday to set
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="getTuesday"></A><H3>getTuesday</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/com/primus/data/DCE8B7833BF59F8BD35953270EAC6901DC2.html">Tuesday</A> <B>getTuesday</B>()</PRE>
+<DL>
+<DD>
+     @return the tuesday
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="setTuesday"></A><H3>setTuesday</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A> <B>setTuesday</B>(<A HREF="../../../../Primus-Model/com/primus/data/DCE8B7833BF59F8BD35953270EAC6901DC2.html">Tuesday</A>&nbsp;tuesday)</PRE>
+<DL>
+<DD>
+     @param tuesday the tuesday to set
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="getWednesday"></A><H3>getWednesday</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/com/primus/data/DCE15CE2AF37989AD9F51ECBC8212523ACD.html">Wednesday</A> <B>getWednesday</B>()</PRE>
+<DL>
+<DD>
+     @return the wednesday
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="setWednesday"></A><H3>setWednesday</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A> <B>setWednesday</B>(<A HREF="../../../../Primus-Model/com/primus/data/DCE15CE2AF37989AD9F51ECBC8212523ACD.html">Wednesday</A>&nbsp;wednesday)</PRE>
+<DL>
+<DD>
+     @param wednesday the wednesday to set
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="getThursday"></A><H3>getThursday</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/com/primus/data/DCE81E17F7CF537F4016105E0E36CFA2C30.html">Thursday</A> <B>getThursday</B>()</PRE>
+<DL>
+<DD>
+     @return the thursday
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="setThursday"></A><H3>setThursday</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A> <B>setThursday</B>(<A HREF="../../../../Primus-Model/com/primus/data/DCE81E17F7CF537F4016105E0E36CFA2C30.html">Thursday</A>&nbsp;thursday)</PRE>
+<DL>
+<DD>
+     @param thursday the thursday to set
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="getFriday"></A><H3>getFriday</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/com/primus/data/DCEADAB2AEA567B8CB0414F32F0A4AFE8EF.html">Friday</A> <B>getFriday</B>()</PRE>
+<DL>
+<DD>
+     @return the friday
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="setFriday"></A><H3>setFriday</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A> <B>setFriday</B>(<A HREF="../../../../Primus-Model/com/primus/data/DCEADAB2AEA567B8CB0414F32F0A4AFE8EF.html">Friday</A>&nbsp;friday)</PRE>
+<DL>
+<DD>
+     @param friday the friday to set
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="getSaturday"></A><H3>getSaturday</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/com/primus/data/DCE56AF9374FA37D0C32BB4774215FBDBBA.html">Saturday</A> <B>getSaturday</B>()</PRE>
+<DL>
+<DD>
+     @return the saturday
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="setSaturday"></A><H3>setSaturday</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A> <B>setSaturday</B>(<A HREF="../../../../Primus-Model/com/primus/data/DCE56AF9374FA37D0C32BB4774215FBDBBA.html">Saturday</A>&nbsp;saturday)</PRE>
+<DL>
+<DD>
+     @param saturday the saturday to set
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="getSunday"></A><H3>getSunday</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/com/primus/data/DCE862503B75BD8F9FD6D78C07D48C23872.html">Sunday</A> <B>getSunday</B>()</PRE>
+<DL>
+<DD>
+     @return the sunday
+     
+<P>
+</DD></DL>
+<HR>
+<A NAME="setSunday"></A><H3>setSunday</H3>
+<PRE>
+public <A HREF="../../../../Primus-Model/DCEC61867A53F1B4EA437AD7FB7B5275CF4.html">void</A> <B>setSunday</B>(<A HREF="../../../../Primus-Model/com/primus/data/DCE862503B75BD8F9FD6D78C07D48C23872.html">Sunday</A>&nbsp;sunday)</PRE>
+<DL>
+<DD>
+     @param sunday the sunday to set
+     
+<P>
+</DD></DL>
+
+<HR>
+<!-- ========= START OF NAVBAR ======= -->
+<A NAME="navbar_top"></A>
+<A HREF="#skip-navbar_top" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_top_firstrow"></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1"> &nbsp;<A HREF="../../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <FONT CLASS="NavBarFont1">Package</FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1Rev">    <FONT CLASS="NavBarFont1Rev"><B>Element</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <FONT CLASS="NavBarFont1">Diagram</FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../help.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+<b>NetBeans UML Modeling</b>
+</TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_top"></A>
+<!-- ========= END OF NAVBAR ========= -->
+
+</BODY>
+</HTML>

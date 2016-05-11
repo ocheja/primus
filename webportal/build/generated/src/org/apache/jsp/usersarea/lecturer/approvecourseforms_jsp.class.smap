@@ -1,0 +1,29 @@
+SMAP
+approvecourseforms_jsp.java
+JSP
+*S JSP
+*F
++ 0 approvecourseforms.jsp
+usersarea/lecturer/approvecourseforms.jsp
+*L
+5,5:58
+10,2:63,3
+12,12:69
+23:202,11
+24:213,3
+24:244,5
+24,2:218
+25,10:83
+34:262,11
+35:273,3
+35:304,5
+35,2:278
+36,10:95
+45:322,11
+46:333,3
+46:364,5
+46,2:338
+47,25:107
+72:132,3
+73,49:135
+*E

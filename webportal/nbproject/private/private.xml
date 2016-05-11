@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/C:/Java%20projects/primus/src/java/com/primus/serviceBean/PortalActivityServiceBean.java</file>
+        <file>file:/C:/Java%20projects/primus/src/java/com/primus/data/LecturerStudents.java</file>
+        <file>file:/C:/Java%20projects/primus/src/java/com/primus/data/LecturerType.java</file>
+        <file>file:/C:/Java%20projects/primus/src/java/com/primus/enums/LecturerPosition.java</file>
+        <file>file:/C:/Java%20projects/primus/src/java/com/primus/serviceBean/LecturerResultSheetServiceBean.java</file>
+        <file>file:/C:/Java%20projects/primus/src/java/com/primus/util/ReadResultsheetExcel.java</file>
+        <file>file:/C:/Java%20projects/primus/src/java/com/primus/data/StudentResultSheet.java</file>
+        <file>file:/C:/Java%20projects/primus/src/java/com/primus/webListener/WebContextListener.java</file>
+        <file>file:/C:/Java%20projects/primus/src/java/com/primus/serviceBean/CourseFormServiceBean.java</file>
+        <file>file:/C:/Java%20projects/primus/nbproject/build-impl.xml</file>
+    </open-files>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/P:/Subversion/Primus%20V2/primus/src/java/com/primus/servlets/LecturerAjaxServlet.java</file>
+        </group>
+    </open-files>
+</project-private>

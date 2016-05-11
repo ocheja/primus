@@ -1,0 +1,14 @@
+SMAP
+viewadmins_jsp.java
+JSP
+*S JSP
+*F
++ 0 viewadmins.jsp
+usersarea/admin/viewadmins.jsp
+*L
+5,4:45
+9,5:49,3
+14,47:64
+61:111,3
+62,32:114
+*E

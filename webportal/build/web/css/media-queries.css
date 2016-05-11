@@ -1,0 +1,285 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* ---------------------------------------------------------------------- */
+/*	Version 2048px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 2048px) {
+    .content_map{
+        position: absolute;
+    }
+    header .navbar .navbar-inner ul.nav li a{
+        padding: 18px 20px;
+    }
+    #menu-homepage{
+        margin-top: 125px;
+    }
+    .theme-default .nivoSlider{
+        height: 567px;
+
+    }
+    .theme-default .nivo-caption{
+        font-size: 21px;
+    }
+}
+@media handheld, only screen and (max-width: 1200px) {
+    .content_map{
+        position: absolute;
+    }
+    header .navbar .navbar-inner ul.nav li a{
+        padding: 18px 9px;
+    }
+    #menu-homepage{
+        margin-top: 125px;
+    }
+    .theme-default .nivoSlider{
+        height: 567px;
+
+    }
+    .theme-default .nivo-caption{
+        font-size: 21px;
+    }
+}
+/* ---------------------------------------------------------------------- */
+/*	Version 1170px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 1170px) {
+    .content_map{
+        position: absolute;
+    }
+    header .navbar .navbar-inner ul.nav li a{
+        padding: 18px 9px;
+    }
+    #menu-homepage{
+        margin-top: 125px;
+    }
+    .theme-default .nivoSlider{
+        height: 567px;
+
+    }
+    .theme-default .nivo-caption{
+        font-size: 21px;
+    }
+}
+
+@media handheld, only screen and (max-width: 1134px) {
+    .row-fluid .span10.center_content {
+        width: 100%;
+    }
+    .row-fluid .span2.right_content{
+        width: 100%;
+        margin-left: 0;
+    }
+    .menu_item{
+        width: 16.563%;
+    }
+    .center_content .navbar .nav {
+        display: block;
+    }
+    #tinynav1{
+        display: none;
+    }
+    .right_content section{
+        text-align: center;
+    }
+    .right_content .avatar_img{
+        width: 20%;
+    }
+    .home .camera_thumb{
+        height: auto;
+    }
+    .cameraContents .camera_caption h1{
+        font-size: 26px;
+        padding: 8px 21px;
+
+    }
+    .cameraContents .camera_caption span{
+        font-size: 16px;
+        width: 47%;
+    }
+    .container-fluid  .row-fluid .center_content footer .content_footer{
+        display: table;
+
+    }
+    .container-fluid  .row-fluid .right_content footer .content_footer{
+
+        display: none;
+
+    }
+    footer .content_footer .span4{
+        font-size: 11px;
+    }
+    #grid_content{
+        height: 600px;
+    }
+    .content_map{
+        position: absolute;
+
+    }
+    #menu-homepage{
+        margin-top: 125px;
+    }
+    .theme-default .nivoSlider{
+        height: 567px;
+
+    }
+    .theme-default .nivo-caption{
+        font-size: 21px;
+    }
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Version 1024px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 1024px) {
+	/* Header ------------------------------------------*/
+	#requestShowing { 
+	display: none;
+	}
+    .content_map{
+        position: absolute;
+
+    }
+    #menu-homepage{
+        margin-top: 125px;
+    }
+    .theme-default .nivoSlider{
+        height: 567px;
+
+    }
+    .theme-default .nivo-caption{
+        font-size: 21px;
+    }
+}
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 980px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 980px) {
+    #menu-homepage{
+        margin-top: 0px;
+    }
+    .theme-default .nivoSlider{
+        height: 567px;
+    }
+    .theme-default .nivo-caption{
+        font-size: 21px;
+    }
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 767px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 767px) {
+	/* Header ------------------------------------------*/
+	.navbar-inverse .nav-collapse .nav > li > a, .navbar-inverse .nav-collapse .dropdown-menu a { 
+		padding:5px 0 5px 20px;
+		font-weight:300;
+		line-height:28px;
+	}
+	#requestShowing { 
+	display: none;
+	}
+	header nav ul li a { 
+		line-height: 25px;
+	}
+    .content_map{
+        height: 500px;
+        position: relative;
+        width: 100%
+
+         }
+    .theme-default .nivoSlider{
+        height: 567px;
+
+    }
+    .theme-default .nivo-caption{
+        font-size: 21px;
+    }
+
+}
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 600px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 600px) {
+    .content_map{
+        height: 500px;
+        position: relative;
+        width: 100%
+
+    }
+    .theme-default .nivoSlider{
+        height: 320px;
+
+    }
+    .theme-default .nivo-caption{
+        font-size: 11px;
+    }
+}
+	
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 568px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 568px) {
+    .content_map{
+        height: 500px;
+        position: relative;
+        width: 100%
+
+    }
+}
+
+
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 480px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 480px) {
+    .content_map{
+        height: 500px;
+        position: relative;
+        width: 100%
+
+    }
+	
+}
+
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 320px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 320px) {
+    .content_map{
+        height: 500px;
+        position: relative;
+        width: 100%
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
